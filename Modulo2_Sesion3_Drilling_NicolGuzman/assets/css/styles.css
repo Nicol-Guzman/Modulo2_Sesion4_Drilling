@@ -1,0 +1,115 @@
+.button-container {
+    text-align: center;
+    align-items: center;
+}
+
+/* AL POSAR EL PUNTERO EN EL BOTÓN MOSTRARÁ
+EL PUNTERO CON LA MANO EN VEZ DE LA FLECHA
+DEFAULT DE LOS SISTEMAS */
+
+.primary-btn {
+    color: #fff;
+    background-color: #3498db;
+    border-radius: 3px;
+    border-style: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 6px;
+    cursor: pointer;
+}
+
+.secondary-btn {
+    color: #fff;
+    background-color: #2ecc71;
+    border-radius: 3px;
+    border-style: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 6px;
+    cursor: pointer;
+}
+
+.success-btn {
+    color: #fff;
+    background-color: #209b53;
+    border-radius: 3px;
+    border-style: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 6px;
+    cursor: pointer;
+}
+
+.danger-btn {
+    color: #fff;
+    background-color: #e74c3c;
+    border-radius: 3px;
+    border-style: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 6px;
+    cursor: pointer;
+}
+
+/* SE INCLUYO UNA ACCION DE HOVER PARA LOS BOTONES
+QUE HACE QUE SE OSCUREZCAN AL POSAR EL PUNTERO ENCIMA */
+
+.primary-btn:hover {
+    color: #fff;
+    background-color: #216fa3;
+    transition: 0.7s;
+    border-radius: 3px;
+    border-style: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 6px;
+}
+
+.secondary-btn:hover {
+    color: #fff;
+    background-color: #18b459;
+    transition: 0.7s;
+    border-radius: 3px;
+    border-style: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 6px;
+}
+
+.success-btn:hover {
+    color: #fff;
+    background-color: #106935;
+    transition: 0.7s;
+    border-radius: 3px;
+    border-style: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 6px;
+}
+
+.danger-btn:hover {
+    color: #fff;
+    background-color: #b42f20;
+    transition: 0.7s;
+    border-radius: 3px;
+    border-style: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 6px;
+}
